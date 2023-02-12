@@ -26,14 +26,14 @@ print(результат)
 print("Harjutus 4.")
 месяц=int(input("Введи месяц по счету: "))
 def сезон(месяц):
-    if месяц in [3, 4, 5]: #Весна
-        return "kevad"
-    elif месяц in [6, 7, 8]: #Лето
-        return "suvi"
-    elif месяц in [12, 1, 2]: #Зима
-        return "talv"
+    if месяц in [3, 4, 5]:
+        return "Весна"
+    elif месяц in [6, 7, 8]:
+        return "Лето"
+    elif месяц in [12, 1, 2]:
+        return "Зима"
     else:
-        return "sügis" #Осень
+        return "Осень"
 результат=сезон(месяц)
 print(результат)
 #Harjutus 3.
