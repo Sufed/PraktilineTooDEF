@@ -1,4 +1,7 @@
 ﻿import math
+#Harjutus 8.
+
+#Harjutus 7.
 
 #Harjutus 6.
 print("Harjutus 6.")
